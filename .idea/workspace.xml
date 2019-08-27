@@ -5,54 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f81a2f7f-94df-4279-9618-d7a0b41e8afd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gradle/build-services.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/services/Info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/services/RFC3339DateFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/services/cloudant/CloudantClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/services/configuration/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/services/configuration/SwaggerDocumentationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/services/ibmcloud/CloudServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/services/ibmcloud/CloudServicesException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/services/ibmcloud/Mappings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/services/ibmcloud/ServiceMappings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/stock/config/StockConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/stock/config/StockServiceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/stock/controller/ApiException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/stock/controller/ApiOriginFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/stock/controller/ApiResponseMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/stock/controller/NotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/stock/controller/ProductApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/stock/controller/ProductsApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/stock/model/GreetingRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/stock/model/GreetingResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/stock/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/stock/service/GreetingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/stock/service/ProductApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/stock/service/ProductsApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/stock/service/ServiceName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/stock/service/ServiceNameConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/stock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/stock/controller/StockApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/stock/controller/StockItemsApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart/template-java-spring/.helmignore" beforeDir="false" afterPath="$PROJECT_DIR$/chart/stock-service/.helmignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart/template-java-spring/Chart.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/chart/stock-service/Chart.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart/template-java-spring/templates/NOTES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chart/stock-service/templates/NOTES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart/template-java-spring/templates/_helpers.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/chart/stock-service/templates/_helpers.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart/template-java-spring/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/chart/stock-service/templates/deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart/template-java-spring/templates/ingress.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/chart/stock-service/templates/ingress.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart/template-java-spring/templates/service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/chart/stock-service/templates/service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart/template-java-spring/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/chart/stock-service/values.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pipeline-build-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repos.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/hello/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibm/app/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/localdev-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/localdev-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibm/app/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/services/configuration/SwaggerDocumentationConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/stock/controller/ProductApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/stock/controller/ProductsApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibm/stock/controller/StockItemsApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/stock/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibm/stock/model/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/stock/service/ProductApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibm/stock/controller/StockApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/stock/service/ProductsApi.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mappings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappings.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,7 +75,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/ibm/stock" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/ibm/stock/controller" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -135,11 +101,11 @@
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/ibm/stock/controller" />
       <recent name="$PROJECT_DIR$/src/main/java/com/ibm/stock" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/com/ibm" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/test/java/com/ibm/test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -303,7 +269,7 @@
       <workItem from="1566489631839" duration="1944000" />
       <workItem from="1566612389219" duration="1009000" />
       <workItem from="1566924384069" duration="84000" />
-      <workItem from="1566924492905" duration="5452000" />
+      <workItem from="1566924492905" duration="11408000" />
     </task>
     <task id="LOCAL-00001" summary="updates to support build with Jenkins">
       <created>1565055262978</created>

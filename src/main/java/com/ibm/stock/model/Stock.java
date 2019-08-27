@@ -15,14 +15,41 @@ import javax.validation.constraints.*;
 @Validated
 @javax.annotation.Generated(value = "com.ibm.mobile.sdkgen.platform.JavaSpringBootCodegenConfig", date = "2017-10-21T21:39:11.308Z")
 
-public class Product   {
-  @JsonProperty("id")
-  private Long id = null;
+public class Stock {
+  @JsonProperty("_id")
+  private String id = null;
 
-  @JsonProperty("name")
-  private String name = null;
+  @JsonProperty("product")
+  private String product = null;
 
-  public Product id(Long id) {
+  @JsonProperty("stock")
+  private int stock = 0;
+
+  @JsonProperty("price")
+  private String price = null;
+
+  @JsonProperty("guid")
+  private String guide = "";
+
+  @JsonProperty("delivered")
+  private boolean delivered = false;
+
+  @JsonProperty("ordered")
+  private int ordered = 0;
+
+  @JsonProperty("company")
+  private String company = "";
+
+  @JsonProperty("address")
+  private String address = "";
+
+  @JsonProperty("description")
+  private String description = "";
+
+  @JsonProperty("buyer")
+  private String buyer = "";
+
+  public Stock id(String id) {
     this.id = id;
     return this;
   }
@@ -34,17 +61,16 @@ public class Product   {
   @ApiModelProperty(required = true, value = "")
   @NotNull
 
-
-  public Long getId() {
+  public String getId() {
     return id;
   }
 
-  public void setId(Long id) {
+  public void setId(String id) {
     this.id = id;
   }
 
-  public Product name(String name) {
-    this.name = name;
+  public Stock name(String name) {
+    this.product = name;
     return this;
   }
 
@@ -55,15 +81,13 @@ public class Product   {
   @ApiModelProperty(required = true, value = "")
   @NotNull
 
-
-  public String getName() {
-    return name;
+  public String getProduct() {
+    return product;
   }
 
-  public void setName(String name) {
-    this.name = name;
+  public void setProduct(String name) {
+    this.product = name;
   }
-
 
   @Override
   public boolean equals(Object o) {
@@ -73,14 +97,14 @@ public class Product   {
     if (o == null || getClass() != o.getClass()) {
       return false;
     }
-    Product product = (Product) o;
+    Stock product = (Stock) o;
     return Objects.equals(this.id, product.id) &&
-        Objects.equals(this.name, product.name);
+        Objects.equals(this.product, product.product);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(id, name);
+    return Objects.hash(id, product);
   }
 
   @Override
@@ -89,7 +113,7 @@ public class Product   {
     sb.append("class Product {\n");
     
     sb.append("    id: ").append(toIndentedString(id)).append("\n");
-    sb.append("    name: ").append(toIndentedString(name)).append("\n");
+    sb.append("    name: ").append(toIndentedString(product)).append("\n");
     sb.append("}");
     return sb.toString();
   }

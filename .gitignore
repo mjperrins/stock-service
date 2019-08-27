@@ -39,3 +39,4 @@ pipeline-build-config.json
 /.idea/
 
 /src/main/resources/localdev-config.json
+/data/load.sh
