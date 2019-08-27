@@ -1,4 +1,4 @@
-package com.ibm.hello.app;
+package com.ibm.app;
 
 import java.util.Arrays;
 
@@ -8,16 +8,17 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan({"com.ibm.hello.*", "com.ibm.cloud_garage.*","com.ibm.health"})
+@ComponentScan({"com.ibm.hello.*","com.ibm.services.*","com.ibm.stock.*", "com.ibm.cloud_garage.*","com.ibm.health"})
 public class Application extends SpringBootServletInitializer {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
 
-    //@Bean
+    @Bean
     public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
         return args -> {
 

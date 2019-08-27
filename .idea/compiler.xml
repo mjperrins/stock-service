@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="11">
+      <module name="stock-service.main" target="11" />
+      <module name="stock-service.test" target="11" />
       <module name="template-java-spring.main" target="11" />
       <module name="template-java-spring.test" target="11" />
       <module name="template-spring-boot.main" target="11" />

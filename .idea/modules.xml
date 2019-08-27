@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cat.template-java-spring.iml" filepath="$PROJECT_DIR$/.idea/modules/cat.template-java-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stock-service.iml" filepath="$PROJECT_DIR$/.idea/modules/stock-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stock-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/stock-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stock-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/stock-service.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/template-java-spring.iml" filepath="$PROJECT_DIR$/template-java-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/template-java-spring.main.iml" filepath="$PROJECT_DIR$/.idea/modules/template-java-spring.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/template-java-spring.test.iml" filepath="$PROJECT_DIR$/.idea/modules/template-java-spring.test.iml" />

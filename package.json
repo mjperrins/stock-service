@@ -1,7 +1,7 @@
 {
-  "name": "template-spring-boot",
+  "name": "stock-service",
   "version": "1.0.0",
-  "description": "Spring Boot application",
+  "description": "Spring Boot Stock Microservice with Cloudant Integration",
   "main": "index.js",
   "scripts": {
     "build": "./gradlew assemble",

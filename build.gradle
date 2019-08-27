@@ -16,6 +16,7 @@ buildscript {
         swaggerVersion = '2.9.2'
         jaxbVersion = '2.2.11'
         wsdlVersion = '1.6.1'
+
     }
     repositories {
         mavenCentral()
@@ -41,6 +42,7 @@ buildscript {
         classpath("gradle.plugin.org.openrepose:gradle-jaxb-plugin:2.5.0")
 
         classpath("org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.7.1")
+
     }
 }
 
@@ -83,7 +85,7 @@ apply from:   'gradle/build-junit5.gradle'
 apply from:   'gradle/build-testlogger.gradle'
 if (!project.hasProperty("skipCheckstyle")) {
     println("No `skipCheckstyle` flag. Applying build script")
-    apply from: 'gradle/build-checkstyle.gradle'
+    //apply from: 'gradle/build-checkstyle.gradle'
 } else {
     println("`skipCheckstyle` set. Will not apply build script")
 }
@@ -92,8 +94,10 @@ apply from:   'gradle/build-swagger.gradle'
 apply from:   'gradle/build-springactuator.gradle'
 apply from:   'gradle/build-springsleuth.gradle'
 apply from:   'gradle/build-githooks.gradle'
-// apply from:   'gradle/build-liberty.gradle'
+
 apply from:   'gradle/build-pact-provider.gradle'
+
+apply from:   'gradle/build-services.gradle'
 
 apply plugin: "org.sonarqube"
 
