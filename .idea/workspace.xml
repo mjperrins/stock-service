@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f81a2f7f-94df-4279-9618-d7a0b41e8afd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/stock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/stock/controller/StockApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/stock/controller/StockItemsApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibm/app/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/services/configuration/SwaggerDocumentationConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/stock/controller/ProductApiController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/stock/controller/ProductsApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibm/stock/controller/StockItemsApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/stock/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibm/stock/model/Stock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/stock/service/ProductApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibm/stock/controller/StockApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/stock/service/ProductsApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -269,7 +258,8 @@
       <workItem from="1566489631839" duration="1944000" />
       <workItem from="1566612389219" duration="1009000" />
       <workItem from="1566924384069" duration="84000" />
-      <workItem from="1566924492905" duration="11408000" />
+      <workItem from="1566924492905" duration="12160000" />
+      <workItem from="1566946336283" duration="27000" />
     </task>
     <task id="LOCAL-00001" summary="updates to support build with Jenkins">
       <created>1565055262978</created>
