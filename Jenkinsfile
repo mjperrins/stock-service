@@ -117,7 +117,12 @@ spec:
             stage('Sonar scan') {
                 sh '''#!/bin/bash
                     set -x
-                    #./gradlew -Dsonar.login=${SONARQUBE_USER} -Dsonar.password=${SONARQUBE_PASSWORD} -Dsonar.host.url=${SONARQUBE_URL} sonarqube
+                    
+                    if [[ -z "${SONARQUBE_URL}" ]]; then
+                        echo "Sonar Qube configuration is not available"
+                        exit 1
+                    fi
+                    ./gradlew -Dsonar.login=${SONARQUBE_USER} -Dsonar.password=${SONARQUBE_PASSWORD} -Dsonar.host.url=${SONARQUBE_URL} sonarqube
                 '''
             }
         }
