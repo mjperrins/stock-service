@@ -45,10 +45,11 @@ spec:
               value: {{ include "stater-kit-chart.host" . }}
             - name: PROTOCOLS
               value: {{ include "stater-kit-chart.protocols" . }}
-          envFrom:
-            - secretRef:
-                name: binding-showcase-dev-openshift-cloudant
-                optional: false
+            - name: binding-showcase-dev-openshift-cloudant
+              valueFrom:
+                secretKeyRef:
+                  key: binding
+                  name: binding-showcase-dev-openshift-cloudant
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
