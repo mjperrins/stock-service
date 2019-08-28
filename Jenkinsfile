@@ -122,7 +122,7 @@ spec:
                         echo "Sonar Qube configuration is not available"
                         exit 1
                     fi
-                    ./gradlew -Dsonar.login=${SONARQUBE_USER} -Dsonar.password=${SONARQUBE_PASSWORD} -Dsonar.host.url=${SONARQUBE_URL} sonarqube
+                    ./gradlew -DskipCheckstyle=true -Dsonar.login=${SONARQUBE_USER} -Dsonar.password=${SONARQUBE_PASSWORD} -Dsonar.host.url=${SONARQUBE_URL} sonarqube
                 '''
             }
         }
