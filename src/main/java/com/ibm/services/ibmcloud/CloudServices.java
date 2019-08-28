@@ -155,6 +155,7 @@ public class CloudServices {
             String token[] = parseOnfirst(target, ":");
             LOGGER.info("envtokens " + token[0] + " , " + token[1]);
             if (!token[0].isEmpty() && !token[1].isEmpty() && token[1].startsWith("$") ) {
+                LOGGER.info(token[0]+":"+System.getenv(token[0]));
                 value = getJsonValue(token[1], System.getenv(token[0]));
             }
         }
