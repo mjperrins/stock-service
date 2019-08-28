@@ -164,6 +164,7 @@ public class CloudServices {
         if(value != null) {
             value = sanitiseString(value);
         }
+        LOGGER.info("ENV:"+target+":"+value);
         return value;
     }
 
