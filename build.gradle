@@ -71,7 +71,8 @@ ext {
             ],
             pact: [
                     pactBrokerUrl: project.hasProperty('pactBrokerUrl') ? project.getProperty('pactBrokerUrl') : 'http://localhost'
-            ]
+            ],
+
     ]
 }
 
