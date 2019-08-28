@@ -153,7 +153,7 @@ public class CloudServices {
         String value = null;
         if (target.contains(":")) {
             String token[] = parseOnfirst(target, ":");
-            LOGGER.debug("envtokens " + token[0] + " , " + token[1]);
+            LOGGER.info("envtokens " + token[0] + " , " + token[1]);
             if (!token[0].isEmpty() && !token[1].isEmpty() && token[1].startsWith("$") ) {
                 value = getJsonValue(token[1], System.getenv(token[0]));
             }
