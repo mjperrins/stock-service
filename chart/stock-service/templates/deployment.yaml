@@ -45,7 +45,7 @@ spec:
               value: {{ include "stater-kit-chart.host" . }}
             - name: PROTOCOLS
               value: {{ include "stater-kit-chart.protocols" . }}
-            - name: binding-showcase-dev-openshift-cloudant
+            - name: binding-showcase-dev-rhos-cloudant
               valueFrom:
                 secretKeyRef:
                   key: binding
